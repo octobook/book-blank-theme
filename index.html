@@ -31,7 +31,11 @@ Contents
 <div class="chapter">
   <h1>Chapter {{ chapter.num }} - {{ chapter.title }}</h1>
 
-  <!-- note: for now assume content is in markdown (not HTML); use markdownify to (auto-)convert to HTML -->
-  {{ chapter.content | markdownify }}
+  <!-- note: for now assume content is in markdown (not HTML);
+        use markdownify to (auto-)convert to HTML
+    -->
+  {% if chapter.content %}
+    {{ chapter.content | markdownify }}
+  {% endif %}
 </div>
 {% endfor %}

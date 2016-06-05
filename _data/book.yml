@@ -1,4 +1,26 @@
-title:  "Strange Case of Dr. Jekyll and Mr. Hyde"
+title:  Strange Case of Dr. Jekyll and Mr. Hyde
 year:   1886
 author:
-  name: "Robert Louis Stevenson"
+  name: Robert Louis Stevenson
+
+contents:
+- title: Story of the Door
+  num:   1
+- title: Search for Mr. Hyde
+  num:   2
+- title: Dr. Jekyll was Quite at Ease
+  num:   3
+- title: The Carew Murder Case
+  num:   4
+- title: Incident of the Letter
+  num:   5
+- title: Remarkable Incident of Dr. Lanyon
+  num:   6
+- title: Incident at the Window
+  num:   7
+- title: The Last Night
+  num:   8
+- title: Dr. Lanyon's Narrative
+  num:   9
+- title: Henry Jekyll's Full Statement of the Case
+  num:   10
